@@ -3,8 +3,8 @@
 
 import json
 
-old = json.load(open("jan2020_to_9-10-21.json", encoding="utf8"))
-current = json.load(open("oct_10.json", encoding="utf8"))[0]['items']
+old = json.load(open("jan2020_to_10-10-21.json", encoding="utf8"))
+current = json.load(open("oct_11.json", encoding="utf8"))[0]['items']
 
 def DictListUpdate( lis1, lis2):
     lis2 = lis2
@@ -13,5 +13,5 @@ def DictListUpdate( lis1, lis2):
             lis2.append(aLis1)
     return lis2
 
-with open('jan2020_to_10-10-21.json', 'w') as f:
+with open('jan2020_to_11-10-21.json', 'w') as f:
     json.dump(DictListUpdate(old, current), f)
