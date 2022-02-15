@@ -1,6 +1,6 @@
 # Pandemic Monument
 
-Hello, this project aggregates multiple sources of data related to the pandemic in Malaysia. I have uploaded a dashboard here: https://nopynospy.com/scenarios/pandemic_monument/
+Hello, this project aggregates multiple sources of data related to the pandemic in Malaysia. I have uploaded a dashboard here: https://www.nopynospy.cc/pandemic_monument
 
 1. Daily cases (https://github.com/MoH-Malaysia/covid19-public)
 2. Daily news headlines (collected using a Chrome extension that I am still developing)
